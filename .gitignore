@@ -1,10 +1,19 @@
-# Python-generated files
+# Python bytecode and cache
 __pycache__/
-*.py[oc]
+*.py[ocd]
+
+# Build artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+venv/
+.venv/
+
+# Misc (optional, but recommended)
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
